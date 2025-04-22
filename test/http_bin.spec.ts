@@ -1,6 +1,6 @@
 import pactum from 'pactum';
 import { StatusCodes } from 'http-status-codes';
-import { SimpleReporter } from '../simple-reporter';
+import { SimpleReporter } from './../simple-reporter';
 import data from '../data/data.json';
 
 describe('Echo validation', () => {
