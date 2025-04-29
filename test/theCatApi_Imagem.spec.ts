@@ -3,9 +3,7 @@ import { SimpleReporter } from './../simple-reporter';
 import { StatusCodes } from 'http-status-codes';
 import fs from 'fs';
 import path from 'path';
-import dotenv from 'dotenv';
 
-dotenv.config();
 
 describe('The Cat API - Testes de Imagens', () => {
   let imageId = '';
